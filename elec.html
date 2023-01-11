@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="subtypes.css">
+    </head>
+    <body>
+        <!--page definers-->
+        <h1><img src="/logo.PNG"> ur's online shopping partner....  
+            <video  width="200px" height="170px" style="float: right;" controls autoplay loop>
+                <source src="/videos/vanijvidha.mp4" type="video/mp4">
+            </video>
+            <a href="/main.html" onclick=aler() style="color:#C6930A;text-decoration:none;float: right;">&#9756;Back To Home</a><hr> 
+
+        </h1>
+        <br><br><br><br><br>
+         <div class="sidenavs" style="float:right;margin-right:25px;">
+            <a>ACCESSORIES</a><br><br>
+            <p>“The rich and interactive experiences we have come to expect on mobile apps have created new standards and expectations for all digital media including the web. The result is websites are evolving to become more app-like in their rich functionality.”
+
+                <br><br>– Raj Aggarwal</p>
+        </div> 
+        <!--section definers-->
+        <div id="extraelectronics sections" >
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/accesbran.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; BRANDINGS</b></div>
+            </div>
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/accesssp.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; SPECIAL DEALS</b></div>
+            </div>
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/accessneed.jpg" width="250px" height="220px">
+               <hr>
+                <div class="box"><b>&#9758; NEEDS</b></div>
+            </div>
+        </div> 
+        <!--items-->
+        <div id="myNav" class="overlay">
+            <a class="box" href="/main.html">Back</a>
+            <a style="text-align:center;"><input type="text" placeholder="Search.." name="search"></a>
+           <div class="overlay-content">
+               <!--elec section-->
+               <div id="elecapage" >
+                
+                   <!--single box code start-->
+                   <div class="item" style="height: 350px;width:220px">
+                       <img src="" width="220px" height="200px" alt="220x200">
+                       <a>&#8377;10,000
+                           <span id="btn1" class="like" onclick="lit1()">&#9829;</span>
+                           <hr>
+                           <button class="btn" >Buy</button>
+                           <button class="btn" >Add to cart</button>
+                       </a>
+                   </div>
+                   <!--single box code ends-->
+                   <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit2()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+                <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit3()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+               </div>
+           </div>
+        </div> 
+    </body>
+    <script src="subtypes.js">
+    </script>
+</html>

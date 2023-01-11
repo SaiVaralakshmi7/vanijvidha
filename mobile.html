@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="subtypes.css">
+    </head>
+    <body>
+        <!--page definers-->
+        <h1><img src="/logo.PNG"> ur's online shopping partner....  
+            <video  width="200px" height="170px" style="float: right;" controls autoplay loop>
+                <source src="/videos/vanijvidha.mp4" type="video/mp4">
+            </video>
+            <a href="/main.html" onclick=aler() style="color:#C6930A;text-decoration:none;float: right;">&#9756;Back To Home</a><hr> 
+        </h1>
+        <br><br><br><br><br>
+         <div class="sidenavs" style="float:right;margin-right:25px;">
+            <a>MOBILES</a><br><br>
+            <p>“We are living in a generation where people ‘in love’ are free to touch each other’s private parts but are not allowed to touch each other’s phones because they are private.”
+                <br><br>― Robert Mugabe</p>
+        </div>
+        <!--section definers-->
+        <div id="mobile sections" >
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+               
+                    <img src="/images/mobbrand.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; BRANDINGS</b></div>
+            </div>
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/mobsp.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; SPECIAL DEALS</b></div>
+            </div>
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/mobessen.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; NEEDS</b></div>
+            </div>
+        </div> 
+        <!--items-->
+        <div id="myNav" class="overlay">
+            <a class="box" href="/main.html">Back</a>
+            <a style="text-align:center;"><input type="text" placeholder="Search.." name="search"></a>
+           <div class="overlay-content">
+               <!--laptops section-->
+               <div id="mobileapage" >
+                   <!--single box code start-->
+                   <div class="item" style="height: 350px;width:220px">
+                       <img src="" width="220px" height="200px" alt="220x200">
+                       <a>&#8377;10,000
+                           <span id="btn1" class="like" onclick="lit1()">&#9829;</span>
+                           <hr>
+                           <button class="btn" >Buy</button>
+                           <button class="btn" >Add to cart</button>
+                       </a>
+                   </div>
+                   <!--single box code ends-->
+                   <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit2()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+                <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit3()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+               </div>
+           </div>
+        </div> 
+    </body>
+    <script src="subtypes.js">
+    </script>
+</html>

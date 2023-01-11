@@ -1,0 +1,98 @@
+body{ background-image: url('/background.jpg');}
+h1{
+    font-size: large;
+   font-family:cursive;
+   color: #C6930A;
+   padding: 25px;
+}
+.sidenavs{
+width : 200px;
+height: 45em;
+background-color: #c6940a4b;
+text-align: center;
+color:#ffd03594;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+text-decoration: none;
+color: #ffd03594;
+width: 250px;
+background-color: rgb(36, 2, 23);
+display: block;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box:hover{background-color: #83630b80;}
+.sidenavs a:hover{background-color: #360834b7;} 
+.item{
+align-items: center;
+float: left;
+margin-left: 80px;
+margin-bottom: 80px;
+cursor: pointer;
+border-style: outset;
+border-color:rgb(201, 181, 7);
+}
+
+
+ .overlay {
+height: 100%;
+width: 0;
+position: fixed;
+ z-index: 1;
+top: 0;
+ left: 0;
+background-color: rgb(36, 2, 23);
+ overflow-x: hidden;
+ transition: 0.5s;
+} 
+.overlay-content{
+top: 25%;
+width: 100%;
+margin-top: 30px;
+}
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color:#c2b937;
+display: block;
+transition: 0.3s;
+}
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+.like{
+float: right;
+font-size: 40px;
+cursor: pointer;
+}
+.like:hover{
+color: #ee2011ea;
+}
+.like a:active{
+color: #ee2011ea;
+}
+
+.btn{
+text-decoration: none;
+display: block;
+border-style: hidden;
+width: fit-content;
+padding: 7px;
+text-align: center;
+font-size: 20px;
+background-color:#c2b937;
+color: #4d0d04;
+border-radius: 20px;
+border-style: outset;
+border-color:#C6930A;
+float: left;
+margin-left: 10px;
+}
+.btn:hover{
+background-color: #c6940a93 ;
+}

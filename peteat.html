@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="subtypes.css">
+    </head>
+    <body>
+        <!--page definers-->
+        <h1><img src="/logo.PNG"> ur's online shopping partner....  
+            <video  width="200px" height="170px" style="float: right;" controls autoplay loop>
+                <source src="/videos/vanijvidha.mp4" type="video/mp4">
+            </video>
+            <a href="/main.html" onclick=aler() style="color:#C6930A;text-decoration:none;float: right;">&#9756;Back To Home</a><hr> 
+
+        </h1>
+        <br><br><br><br><br>
+         <div class="sidenavs" style="float:right;margin-right:25px;">
+            <a>PETS FOOD</a><br><br>
+            <p>“Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are god. Whereas owners of cats are compelled to realize that, if you provide them with food and water and shelter and affection, they draw the conclusion that they are gods.”
+                <br><br>― Christopher Hitchens</p>
+        </div>
+        <!--section definers-->
+        <div id="petfood sections" >
+            
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+            
+                    <img src="/images/petf.jpg" width="250px" height="220px" >
+                <hr>
+                <div class="box"><b>&#9758; PREFFERABLES</b></div>
+            </div>
+            <div class="item" onclick="openNav()" style="font-size: larger;height: 270px;width: 250px;">
+                
+                    <img src="/images/petsp.jpg" width="250px" height="220px">
+                <hr>
+                <div class="box"><b>&#9758; SPECIAL DEALS</b></div>
+            </div>
+            
+        </div> 
+        <!--items-->
+        <div id="myNav" class="overlay">
+            <a class="box" href="/main.html">Back</a>
+            <a style="text-align:center;"><input type="text" placeholder="Search.." name="search"></a>
+           <div class="overlay-content">
+               <!--pets section-->
+               <div id="peteatapage" >
+                   <!--single box code start-->
+                   <div class="item" style="height: 350px;width:220px">
+                       <img src="" width="220px" height="200px" alt="220x200">
+                       <a>&#8377;10,000
+                           <span id="btn1" class="like" onclick="lit1()">&#9829;</span>
+                           <hr>
+                           <button class="btn" >Buy</button>
+                           <button class="btn" >Add to cart</button>
+                       </a>
+                   </div>
+                   <!--single box code ends-->
+                   <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit1()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+                   <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit2()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+                <div class="item" style="height: 350px;width:220px">
+                    <img src="" width="220px" height="200px" alt="220x200">
+                    <a>&#8377;10,000
+                        <span id="btn1" class="like" onclick="lit3()">&#9829;</span>
+                        <hr>
+                        <button class="btn" >Buy</button>
+                        <button class="btn" >Add to cart</button>
+                    </a>
+                </div>
+               </div>
+           </div>
+        </div> 
+        
+    </body>
+    <script src="subtypes.js">
+    </script>
+</html>
